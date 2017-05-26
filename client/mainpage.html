@@ -1,0 +1,281 @@
+<template name="mainpage">
+  <head>
+<title>Nodelle</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="row">
+ {{>mainModuleLoggin}}
+</div >
+  {{>Template.dynamic template=banner}}
+
+
+<!--
+ ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+
+ <div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+      <h1><a href="index.html">Edu.Blog</a></h1>
+      <p>Educacion en linea</p>
+    </div>
+    <!-- ################################################################################################ -->
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">  
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a class="glyphicon glyphicon-chevron-down" href="#">cursos</a>
+          <ul>
+            <li id="a"><a href="http://localhost:3000/diseñoydesarrollo"><span></span>curso de diseño y desarrollo</a></li>
+            <li id="a"><a href="http://localhost:3000/html5"><span></span>curso de html5</a></li>
+            <li id="a"><a href="http://localhost:3000/nodejs"><span></span>curso de Nodejs</a></li>
+          </ul>
+        </li>
+        <li><a href="#">NUESTRA HISTORIA</a></li>
+        <li><a href="#">ACERCA DE</a></li>
+      </ul>
+    </nav>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper bgded overlay" style="background-image:url('/images/demo/backgrounds/uno.jpg');">
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <div>
+        <p class="heading">bienvenidos</p>
+          <p class="heading">¿ESTAS LISTO PARA CAMBIAR TU VIDA?</p>
+          <h2 class="heading">Plataforma Virtual Edu.Blog</h2>
+      </div>
+      <footer>
+        <ul class="nospace inline pushright">
+          <li><a class="btn" href="#">VAMOS POR MAS</a></li>
+        </ul>
+      </footer>
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+=======
+
+
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="container">
+  {{>Template.dynamic template=content}}
+</div>  
+
+
+<div class="wrapper row2">
+   <div class="hoc container clear"> 
+    <!--################################################################################################-->
+    <ul class="nospace group cta">
+      <li class="one_third first">
+        <article><strong class="numb">01</strong>
+          <h6 class="heading font-x1"><a href="#">Vulputate ullamcorper</a></h6>
+          <p>Rutrum elit nec tincidunt sed aenean aliquet mauris accumsan eget dui id&hellip;</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><strong class="numb">02</strong>
+          <h6 class="heading font-x1"><a href="#">Lobortis condimentum</a></h6>
+          <p>Dolor eu suscipit facilisis vestibulum vitae semper nisl vivamus a ligula&hellip;</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><strong class="numb">03</strong>
+          <h6 class="heading font-x1"><a href="#">Malesuada hendrerit</a></h6>
+          <p>Nulla ut imperdiet metus aliquam iaculis mi in tortor accumsan at lobortis&hellip;</p>
+        </article>
+      </li>
+    </ul>
+    <!--################################################################################################--> 
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ############################################################################################### -->
+    <ul class="nospace group services">
+      <li class="one_third first btmspace-30">
+        <article><a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+          <h6 class="heading font-x1">Ligula ornare mattis</h6>
+          <p>Mauris vel vehicula lacinia est nunc tincidunt quam sed placerat felis&hellip;</p>
+        </article>
+      </li>
+      <li class="one_third btmspace-30">
+        <article><a href="#"><i class="fa fa-4x fa-balance-scale"></i></a>
+          <h6 class="heading font-x1">Vestibulum at semper</h6>
+          <p>Vitae neque ac ullamcorper nulla id hendrerit phasellus pretium mi in&hellip;</p>
+        </article>
+      </li>
+      <li class="one_third btmspace-30">
+        <article><a href="#"><i class="fa fa-4x fa-map-signs"></i></a>
+          <h6 class="heading font-x1">Tincidunt ullamcorper</h6>
+          <p>Lacinia interdum dui diam pharetra velit eget accumsan turpis neque&hellip;</p>
+        </article>
+      </li>
+      <li class="one_third first">
+        <article><a href="#"><i class="fa fa-4x fa-binoculars"></i></a>
+          <h6 class="heading font-x1">Dolor nec malesuada</h6>
+          <p>Sagittis massa in metus vehicula blandit tellus pulvinar donec&hellip;</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fa fa-4x fa-paw"></i></a>
+          <h6 class="heading font-x1">Ultrices ut porta sed</h6>
+          <p>Purus elit interdum nibh cursus nisl tellus egestas nunc fusce in&hellip;</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fa fa-4x fa-qrcode"></i></a>
+          <h6 class="heading font-x1">A viverra vestibulum</h6>
+          <p>Id condimentum ligula purus non massa mattis rhoncus cum&hellip;</p>
+        </article>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/tres.jpg');">
+  <article class="hoc container clear center"> 
+    <!-- ################################################################################################ -->
+    <h2 class="font-x3">Comenzar</h2>
+    <p class="btmspace-50">Estamos conectando a millones de estudiantes, educadores y empleadores en todo el mundo.</p>
+    <p class="nospace"><a class="btn medium" href="#">INICIAR &raquo;</a></p>
+    <!-- ################################################################################################ -->
+  </article>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="center btmspace-80">
+      <h3 class="font-x3 nospace">Cómo registrarse en los cursos de programación</h3>
+      <p class="nospace">La agenda que hoy presentamos se encuentra disponible en la plataforma Coursera. Para participar solo tienes que ingresar a los enlaces que compartimos más abajo y hacer clic en el botón "Inscribirse ahora". Luego se mostrará un formulario que debes completar con tus datos personales <a href="#">inscribirse</a>.</p>
+    </div>
+    <div class="group">
+      <div class="one_third first">
+        <h2>Cursos mas visitados</h2>
+        <p>JAVASCRIPT    C   C++   HTML </p>
+      </div>
+      <article class="one_third"><a href="#"><img class="btmspace-30" src="images/demo/uno.png" alt=""></a>
+        <h3 class="heading">John Doe</h3>
+        <p>Vel tempus dolor eros in nunc curabitur vel dapibus quam nullam in vestibulum nisi proin nunc quam aliquet ut est&hellip;</p>
+        <p class="nospace"><a href="#">Read More &raquo;</a></p>
+      </article>
+      <article class="one_third"><a href="#"><img class="btmspace-30" src="images/demo/dos.png" alt=""></a>
+        <h3 class="heading">Jane Doe</h3>
+        <p>Interdum velit aliquam vel dui sed lorem iaculis blandit et quis lorem nam cursus eget tortor id tristique nunc&hellip;</p>
+        <p class="nospace"><a href="#">Read More &raquo;</a></p>
+      </article>
+    </div>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="title">SIGUENOS</h6>
+      <p class="btmspace-15">EDU.BLOG, un programa de responsabilidad social, promueve el desarrollo de destrezas y la formación profesional para entidades educativas y personas en todo el mundo.</p>
+      <ul class="faico clear">
+        <li><a href="https://www.facebook.com/" target="_blank"><img alt="siguenos en facebook" height="48" src="http://4.bp.blogspot.com/-LnKbkk802kw/UiXwV9rN8xI/AAAAAAAAB0Y/fQCQKFEbvjM/s1600/face.png" title="siguenos en facebook" width="48" /></a></li>
+        <li><a href="https://plus.google.com/+" target="_blank"><img alt="siguenos en Google+" height="48" src="http://3.bp.blogspot.com/-IwxItZ1_cM0/UiX0-g2DrCI/AAAAAAAAB1c/hOSA6Uklo-I/s1600/Google%252B+alt.png" title="siguenos en Google+" width="48" /></a></li>
+        <li><a href="https://twitter.com/iniciarsesion?lang=es" target="_blank"><img alt="siguenos en Twitter" height="48" src="http://2.bp.blogspot.com/-CaF1EOBAWj4/UiX1AxmkZuI/AAAAAAAAB2Y/IioIplosXNo/s1600/Twitter+NEW.png" title="siguenos en Twitter" width="48" /></a></li>
+        <li><a href="https://www.youtube.com/?gl=MX&hl=es-419" target="_blank"><img alt="Canal de youtube" height="48" src="http://4.bp.blogspot.com/-wJkQKYTRnLE/UiX1C4zSnRI/AAAAAAAAB3Q/itwpDSplxdo/s1600/YouTube+alt+1.png" title="Canal de youtube" width="48" /></a></li>
+        <li><a href="https://www.instagram.com/?hl=es" target="_blank"><img alt="sígueme en Instagram" height="48" src="http://2.bp.blogspot.com/-6o2p2ehwMU4/UidPFSMM0vI/AAAAAAAAB_w/0v1pGNm_Dyg/s1600/instagram2.png" title="sígueme en Instagram" width="48" /></a></li>
+        <li><a href="https://www.google.com/gmail/" target="_blank"><img alt="sígueme por Correo" height="48" src="http://4.bp.blogspot.com/-0jl15c8qL3o/UiX0_E2uNjI/AAAAAAAAB1g/r5BfxtEJFzA/s1600/Mail.png" title="sígueme por Correo" width="48" /></a></li>
+        <li><a href="https://www.skype.com/es/" target="_blank"><img alt="sígueme en Skype" height="48" src="http://1.bp.blogspot.com/-INuV6Ck3_HI/UiX1AHxGARI/AAAAAAAAB2A/VMz64Y6IW7s/s1600/Skype.png" title="sígueme en Skype" width="48" /></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="title">Contactate con Nosotros</h6>
+      <ul class="nospace linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+             Avenida Periferica # 17
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> +(591) 65490772</li>
+        <li><i class="fa fa-fax"></i> +00 (591) 79438307</li>
+        <li><i class="fa fa-envelope-o"></i> edu.blog@gmail.com</li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="title">Justo efficitur ultrices</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Vel diam neque nunc</a></h2>
+            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+            <p class="nospace">Vitae feugiat nisi eget magna at arcu viverra posuere donec aliquam&hellip;</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Quis hendrerit libero</a></h2>
+            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thirsday, 5<sup>th</sup> April 2045</time>
+            <p class="nospace">Cras auctor metus vel augue gravida ultrices maecenas consectetur&hellip;</p>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Realizado &copy; 2017 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<!--<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>-->
+</body>
+</template>
+<!--
+Template Name: Nodelle
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
